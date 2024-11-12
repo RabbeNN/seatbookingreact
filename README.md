@@ -38,4 +38,5 @@ för både sätesval samt bokning.
 
 ## Utöver ramverk
 Utöver ramverket använde jag mig av en json fil vid namn movies.json där jag lagrade filmerna som finns med i applikationen.
+
 En vanlig CSS fil används för styling av applikationen
