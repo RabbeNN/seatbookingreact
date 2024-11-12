@@ -32,7 +32,7 @@ function Booking({selectedMovie, totalPrice}) {
                                 <label htmlFor="phone">Phone Number:</label>
                                 <input type="text" id="phone" name="phone" />
                             </div>
-                            <button type="button">Submit</button>
+                            <button type="button">Book tickets</button>
                             <button type="button"className="cancelbtn" onClick={handleCancelClick}>Cancel</button>
                         </form>
                     </div>

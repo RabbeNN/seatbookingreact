@@ -9,7 +9,7 @@ function Movieselect({ setTicketPrice, setSelectedMovie }) {
   
 
   useEffect(() => {
-    fetch ('movies.json')
+    fetch ('/seatbookingreact/movies.json')
     .then(response => response.json())
     .then(data => setMovies(data))
     .catch(error => console.error('error fetching', error))

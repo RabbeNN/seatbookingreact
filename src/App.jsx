@@ -7,7 +7,7 @@ import Booking from './components/booking';
 
 function App() {
   const [ticketPrice, setTicketPrice] = useState(0);
-  const [selectedMovie, setSelectedMovie] = useState(null);
+  const [selectedMovie, setSelectedMovie] = useState("");
   const [totalPrice, setTotalPrice] = useState(0);
 
 
