@@ -22,7 +22,7 @@ function Booking({selectedMovie, totalPrice}) {
                 <div className="popup">
                     <div className="popup-content">
                         <h2>{selectedMovie}</h2>
-                        <h3>Total Price: ${totalPrice}</h3>
+                        <h3>Total Price: {totalPrice}Kr</h3>
                         <form>
                             <div>
                                 <label htmlFor="name">Name:</label>

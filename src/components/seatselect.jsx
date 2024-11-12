@@ -110,9 +110,9 @@ function SeatSelect({ticketPrice, setTotalPrice}) {
       </div>
     </div>
     <p className="text">
-      You have selected <span id="count">{selectedSeats.length}</span> seats for a price of $<span
+      You have selected <span id="count">{selectedSeats.length}</span> seats for a price of <span
         id="total"
-        >{totalPrice}</span>
+        >{totalPrice}Kr</span>
       {">"}</p>
         </>
     )
