@@ -12,9 +12,9 @@ Detta projektet är gjort för att kunna boka biljetter i en bio.
 
 ### Användning
 
-1: Starta programmet med npm start
+1: Starta programmet med **npm start**
 
-2: Detta kommer starta programmet i http://localhost:3000
+2: Detta kommer starta programmet i **http://localhost:3000**
 
 3: Välj en film i listan, där ser du även filmens pris
 
