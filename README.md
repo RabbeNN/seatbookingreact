@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Inlämning Javascript 2. SeatBookingReact
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Detta projektet är gjort för att kunna boka biljetter i en bio.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+1: **Klona repot** med https://github.com/RabbeNN/seatbookingreact.git
+2: **Gå till projektkatalogen** cd seatbookingreact
+3: **Installera paket med** npm install
 
-### `npm start`
+### Användning
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1: Starta programmet med npm start
+2: Detta kommer starta programmet i http://localhost:3000
+3: Välj en film i listan, där ser du även filmens pris
+4: Välj sedan platserna via platskartan. Under kommer du se det sammanlagda priset för platserna
+5: Tryck boka för att få upp formulär, där ser du vald film, pris för biljetter och kan boka direkt med namn och telefonnummer.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Ramverk
+Jag valde att använda mig av React då vi just nu i kursen gått igenom det.
+Jag ser väldigt positivt till att använda React då projektet struktureras upp på ett bra sätt med komponenter.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Utöver ramverk
+Utöver ramverket använde jag mig av en json fil vid namn movies.json där jag lagrade filmerna som finns med i applikationen.
+En vanlig CSS fil används för styling av applikationen
