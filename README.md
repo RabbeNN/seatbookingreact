@@ -14,7 +14,9 @@ Detta projektet är gjort för att kunna boka biljetter i en bio.
 
 1: Starta programmet med **npm start**
 
-2: Detta kommer starta programmet i **http://localhost:3000**
+2: Detta kommer starta programmet i **http://localhost:3000** 
+
+(Du kan även välja att gå in på projektet med länken **https://rabbenn.github.io/seatbookingreact/** direkt via din webbläsare
 
 3: Välj en film i listan, där ser du även filmens pris
 
