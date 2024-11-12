@@ -17,7 +17,6 @@ function Movieselect({ setTicketPrice, setSelectedMovie }) {
   
   
   
-    
     return(
       <>
     <div className="movie-container">
