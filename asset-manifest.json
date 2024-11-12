@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/seatbookingreact/static/css/main.9b4f08aa.css",
+    "main.js": "/seatbookingreact/static/js/main.9e926071.js",
+    "static/js/453.a7e00a4d.chunk.js": "/seatbookingreact/static/js/453.a7e00a4d.chunk.js",
+    "index.html": "/seatbookingreact/index.html",
+    "main.9b4f08aa.css.map": "/seatbookingreact/static/css/main.9b4f08aa.css.map",
+    "main.9e926071.js.map": "/seatbookingreact/static/js/main.9e926071.js.map",
+    "453.a7e00a4d.chunk.js.map": "/seatbookingreact/static/js/453.a7e00a4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b4f08aa.css",
+    "static/js/main.9e926071.js"
+  ]
+}
