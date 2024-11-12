@@ -22,7 +22,7 @@ function Movieselect({ setTicketPrice, setSelectedMovie }) {
       <>
     <div className="movie-container">
       <label htmlFor="movie">Pick a movie</label>
-      <select name="movie" id="movie" defaultValue="" onChange={e => { const movie = movies.find(movie => movie.id === e.target.value); setTicketPrice(movie.price); setSelectedMovie(movie.title) }}>
+      <select name="movie" id="movie" defaultValue="" onChange={e => { const movie = movies.find(movie => movie.id == e.target.value); setTicketPrice(movie.price); setSelectedMovie(movie.title) }}>
         <option value="" disabled>Select a movie</option>
         {Array.isArray(movies) && movies.map(movie => (
           <option key={movie.id} value={movie.id}>{movie.title}, {movie.price}</option>
