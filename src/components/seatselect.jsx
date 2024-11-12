@@ -26,7 +26,7 @@ function SeatSelect({ticketPrice, setTotalPrice}) {
         return () => {
             seats.forEach(seat => seat.removeEventListener('click', handleSeatClick));
         };
-    }, [selectedSeats]);
+    }, [selectedSeats, handleSeatClick]);
 
     const totalPrice = selectedSeats.length * ticketPrice;
 
